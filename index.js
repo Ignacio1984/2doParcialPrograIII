@@ -1,3 +1,9 @@
-Programa 2do Parcial Progra III
+//Programa 2do Parcial Progra III Selector
 
-Comienza el web server
+require('dotenv').config();
+
+const Server = require('./Server/server');
+
+const server = new Server();
+
+server.listen();
